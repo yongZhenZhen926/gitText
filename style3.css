@@ -1,0 +1,227 @@
+@charset "utf-8";
+#message {
+	width: 1349px;
+	height: 600px;
+	background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url(img/大海.jpg) no-repeat center;
+}
+#message .center-title {
+	margin: 0 auto;
+	
+	height: 300px;
+	color: #eee;
+	
+}
+#message hgroup {
+	padding: 200px 0 0 200px;
+}
+#message .center-title h2 {
+	font-size: 36px;
+	letter-spacing: 1px;
+}
+#message .center-title h3 {
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+#container {
+	width: 1263px;
+	margin: 30px auto;
+}
+#container .box {
+	border: 1px solid #ccc;
+	margin: 0 0 10px 0;
+	text-align: center;
+}
+#container .sidebar {
+	width: 340px;
+	background-color: #eee;
+	float: right;
+}
+#container .sidebar h2 {
+	margin: 10px 0;
+	font-size: 20px;
+	letter-spacing: 1px;
+	color: #999;
+	font-size: 16px;
+	font-weight: bold;
+}
+#container .sidebar ul {
+	list-style-type: none;
+	margin: 5px;
+}
+#container .hot ul li {
+	display: inline-block;
+	border: 1px solid #eee;
+	margin: 0 2px;
+	background-color: #ddd;
+	padding: 2px;
+	width: 90px;
+	height: 30px;
+	line-height: 30px;
+}
+#container .hot ul li a {
+	display: inline-block;
+	text-decoration: none;
+	color: #999;
+	font-size: 15px;
+}
+#container .hot ul li:hover {
+	background-color: #096;
+}
+#container .pic {
+	width: 100px;
+	height: 90px;
+	font-size: 10px;
+	display: inline-block;  /*本来img是占一整行的，设置为inline的话，又不占位置*/
+	padding: 4px;
+	border-radius: 4px;
+	margin: 10px 5px 5px 5px;
+	position: relative;
+}
+#container figcaption {
+	text-align: center;
+	color: #999;
+}
+#container .sidebar .treasure {
+	height: 310px;
+	vertical-align: middle;
+}
+#container .treasure a {
+	display: inline-block;
+	border: 1px solid #ddd;
+	margin: 5px 10px;
+	background-color: #eee;
+	padding: 2px;
+	width: 130px;
+	height: 40px;
+	line-height: 40px;
+	color: #999;
+	text-decoration: none;
+	text-indent: 14px;
+}
+#container .tag1 {
+	background: #eee url(img/icon-1.jpg) no-repeat 10px center;
+	background-size: 20px;
+}
+#container .tag2 {
+	background: #eee url(img/icon-2.jpg) no-repeat 10px center;
+	background-size: 20px;
+}
+#container .tag3 {
+	background: #eee url(img/icon-3.jpg) no-repeat 10px center;
+	background-size: 20px;
+}
+#container .tag4 {
+	background: #eee url(img/icon-4.jpg) no-repeat 5px center;
+	background-size: 20px;
+}
+#container .treasure a:hover {
+	color: #fff;
+	background-color: #ff0;
+}
+#container .list {
+	width: 900px;
+	background-color: #eee;
+	float: left;
+	position: relative;
+}
+#container .list .first-part {
+	width: 900px;
+	height: 50px;
+	margin: 0 0 20px 0;
+	background-color: #ddd;
+	text-align: center;
+}
+#container .tour-right p {
+	display: inline-block;
+	width: 50px;
+	height: 20px;
+	line-height: 20px;
+	padding: 5px 10px;
+	margin-top: 10px;
+
+}
+#container .tour-right {
+	float: right;
+}
+#container .tour-right p:hover, #container .tour-right p:first-child {
+	background-color: #096;
+	color: #fff;
+}
+#container .tour-left p {
+	display: inline-block;
+	width: 150px;
+	height: 50px;
+	line-height: 50px;
+}
+#container .tour-left p:first-child {
+	background-color: #fff;
+	border-top: 2px solid #6c3;
+	border-left: 1px solid #eee;
+}
+#container .tour-left {
+	float: left;
+}
+.figure {
+	border: 1px solid #ddd;
+	padding: 4px;
+	margin: 0 0 20px 0;
+	line-height: 2;
+	background-color: #fff;
+}
+figcaption {
+	float: right;
+}
+article mark {
+	background-color:#fff;
+	border: 1px solid #09c;
+	padding: 5px 10px;
+}
+#smile {
+	width: 200px;
+	float: right;
+	text-align: left;
+}
+article {
+	width: 350px;
+	float: right;
+	position: relative;
+	text-align: left;
+	margin: auto 20px;
+}
+article footer {
+	position: absolute;
+	bottom: -90px;
+	color: #999;
+	font-size: 14px;
+}
+#smile .discount {
+	color: #f60;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+#smile .discount span {
+	transform: rotate(180deg);
+}
+#smile .price i {
+	text-decoration: line-through;
+}
+#smile .price strong {
+	font-size: 20px;
+	color: #f60;
+}
+#smile .buy-now {
+	width: 160px;
+	height: 45px;
+	line-height: 45px;
+	background-color: #f60;
+	color: #fff;
+	text-align: center;
+	cursor: pointer;
+}
+
+
+
+
+
+
